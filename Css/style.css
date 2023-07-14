@@ -5,11 +5,11 @@ body{
     padding: 0;
     font-family: 'Roboto Slab', serif;
 }
-.section{
+/* section{
     width: 100%;
     background: #fff;
     margin-bottom: 100px;
-}
+} */
 .gap{
     width: 100%;
     height: 40px ;
@@ -29,19 +29,19 @@ body{
 }
 
 /* header section stard  */
-.section .container .row{
+section .container .row{
     display: flex;
     justify-content: space-between;
     /* grid-template: row; */
 }
-.section .container .row .company-logo{
+section .container .row .company-logo{
     width: 210px;
     height: 72px;
     transform: rotate(-16deg);
     border-radius: 30px;
     background: #A1D4FB;
 }
-.section .container .row .company-logo h1{
+section .container .row .company-logo h1{
     font-size: 18px;
     font-weight: 500;
     color: #000;
@@ -49,38 +49,38 @@ body{
     text-align: center;
 }
 
-.section .container .row .Manu-bar ul{
+section .container .row .Manu-bar ul{
     display: flex;   
     gap: 30px;
     
 }
-.section .container .row .Manu-bar ul li{
+section .container .row .Manu-bar ul li{
     list-style-type: none;
     padding: 26px 0;
 }
-.section .container .row .Manu-bar ul li a{
+section .container .row .Manu-bar ul li a{
     text-decoration: none;
     color: #000;
     font-size: 18px;
     font-weight: 500;
     
 }
-.section .container .row .btn{
+section .container .row .btn{
     color: #000;
     background: yellow;
     border: none;
     padding:20px 30px;
 }
-.section .container .banner-part{
+section .container .banner-part{
     text-align: center;
 }
-.section .container .banner-part .wonr-photo{
+section .container .banner-part .wonr-photo{
    width: 400px;
    height: 400px;
    border-radius: 50%;
     background: yellow;
 }
-.section .container .banner-part .title{
+section .container .banner-part .title{
     width: 796px;
     margin: 0 auto;
     text-align: justify;
@@ -90,10 +90,10 @@ body{
     color: #000;
     text-transform: capitalize;
 }
-.section .container .banner-part .title span{
+section .container .banner-part .title span{
     color: #269FFB;
 }
-.section .container .banner-part .btn{
+section .container .banner-part .btn{
     font-size: 32px;
     font-weight: 500;
     line-height: 61px;
@@ -104,3 +104,53 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 /* header section end */
+/* what i do section stard  */
+.w-i-d .container .row .text-item{
+    text-align: center;
+    text-transform: capitalize;
+}
+.w-i-d .container .row .text-item h1{
+    font-size: 76px;
+    font-weight: 500px;
+    color: #000;
+    padding: 150px 0 0 0;
+    margin: 0;
+    
+}
+.w-i-d .container .row .text-item p{
+    color: #269FFB;
+    font-size: 62px;
+    font-weight: 400px;
+
+}
+.w-i-d .container .row .ser-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.w-i-d .container .row .ser-item .item{
+    width:400px ;
+    height: 259px;
+    background: #fff285;
+    border-radius: 15px;
+    border: none;
+    padding: 20px;
+    text-align: justify;
+}
+.w-i-d .container .row .ser-item .pink{
+    background: #ed98AA;
+}
+.w-i-d .container .row .ser-item .sky{
+    background: #b0DAFB;
+}
+.w-i-d .container \.btn{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 61px;
+    padding: 0 20px;
+    border-radius: 30px;
+    border: none;
+    background: #ed8299;
+    font-family: 'Roboto Slab', serif;
+}
+/* what i do section end  */
